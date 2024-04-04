@@ -1,0 +1,63 @@
+:root {
+    margin: 0;
+    padding: 0;
+    background-color: #001;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #223;
+    color: #fff;
+    border: 2px solid #333;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+hr {
+    opacity: 0.25;
+}
+
+.submit {
+    width: 80%;
+    border: 2px solid #557;
+    display: block;
+    margin: auto;
+}
+
+input {
+    background-color: #99a;
+    border-radius: 1rem;
+    border: 3px solid #003;
+    font-size: 3rem;
+    margin: 0.5rem auto;
+    display: block;
+    width: calc(100% - 2rem);
+}
+
+.summary {
+    color: white;
+
+}
+
+input:focus {
+    border: 3px solid #EEF;
+}
+
+.table {
+    color: #EEF;
+    border: 1px solid #EEF;
+    width: 100%;
+}
+
+.table tr td {
+    border-bottom: 1px solid #889;
+    padding: 0.25rem 0.5rem;
+}
